@@ -1,0 +1,471 @@
+#
+msgid ""
+msgstr "Language: th\n"
+
+msgid "Address"
+msgstr "ที่อยู่"
+
+msgid "Address reuse"
+msgstr "การใช้ที่อยู่ซ้ำ"
+
+msgid "Address: %s"
+msgstr "ที่อยู่: %s"
+
+msgid "Amount commitment"
+msgstr "จำนวนความมุ่งมั่น"
+
+msgid "API"
+msgstr "API"
+
+msgid "Asset commitment"
+msgstr "ความมุ่งมั่นของสินทรัพย์"
+
+msgid "Asset ID"
+msgstr "รหัสสินทรัพย์"
+
+msgid "Bits"
+msgstr "บิต"
+
+msgid "Block Challenge"
+msgstr "การท้าทายบล็อค"
+
+msgid "Block height"
+msgstr "ความสูงของบล็อค"
+
+msgid "Block not found"
+msgstr "ไม่พบบล็อค"
+
+msgid "Block %s"
+msgstr "บล็อค %s"
+
+msgid "Block Solution"
+msgstr "โซลูชั่นบล็อค"
+
+msgid "Block #%s: %s"
+msgstr "บล็อค #%s: %s"
+
+msgid "Block timestamp"
+msgstr "เวลาบันทึกบล็อค"
+
+msgid "Broadcast raw transaction (hex)"
+msgstr "สร้างการทำธุรกรรมดิบ (hex)"
+
+msgid "Broadcast transaction"
+msgstr "ส่งประกาศการทำธุรกรรม"
+
+msgid "Broadcast tx"
+msgstr "ส่งประกาศ tx"
+
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+msgid "Coinbase"
+msgstr "Coinbase"
+
+msgid ""
+"CoinJoin transactions hide the link between inputs and outputs and improves "
+"Bitcoin's overall privacy and fungibility for everyone."
+msgstr ""
+"การทำธุรกรรม CoinJoin ซ่อนการเชื่อมโยงระหว่างข้อมูลนำเข้าและผลลัพธ์ และเพิ่มประสิทธิภาพในการคุ้มครองความเป็นส่วนตัวของบิตคอยน์และการสามารถแลกเปลี่ยนได้สำหรับทุกคน"
+
+
+msgid ""
+"compared to bitcoind's suggested fee of %s sat/vB for confirmation within 2 "
+"blocks"
+msgstr ""
+"เมื่อเทียบกับค่าธรรมเนียมที่ bitcoind แนะนำที่ %s sat/vB สำหรับการยืนยันภายใน 2 "
+"บล็อก"
+
+msgid "Confidential"
+msgstr "ความลับ"
+
+msgid "Confirmed"
+msgstr "ยืนยันแล้ว"
+
+msgid "Confirmed received"
+msgstr "ยืนยันการรับแล้ว"
+
+msgid "Confirmed spent"
+msgstr "ยืนยันการใช้จ่ายแล้ว"
+
+msgid "Confirmed tx count"
+msgstr "จำนวนการยืนยัน tx"
+
+msgid "Confirmed unspent"
+msgstr "ยืนยันที่ยังไม่ได้ใช้จ่าย"
+
+msgid "Currently unavailable"
+msgstr "ไม่สามารถใช้งานได้ในขณะนี้"
+
+msgid "Details"
+msgstr "รายละเอียด"
+
+msgid "Esplora is currently unavailable, please try again later."
+msgstr "Esplora ไม่สามารถใช้งานได้ในขณะนี้ โปรดลองอีกครั้งในภายหลัง"
+
+msgid "ETA"
+msgstr "ETA"
+
+msgid "Fee"
+msgstr "ค่าธรรมเนียม"
+
+msgid "Go"
+msgstr "ไป"
+
+msgid "Height"
+msgstr "ความสูง"
+
+msgid "In best chain"
+msgstr "ในสายที่ดีที่สุด"
+
+msgid "In best chain (%s confirmations) (singular)"
+msgstr "ในสายที่ดีที่สุด (1 การยืนยัน)"
+
+msgid "In best chain (%s confirmations) (plural)"
+msgstr "ในสายที่ดีที่สุด (%0 การยืนยัน)"
+
+msgid "Included in Block"
+msgstr "รวมอยู่ในบล็อก"
+
+msgid "in %s blocks (%s from tip)"
+msgstr "ใน %s บล็อก (%s จากทิป)"
+
+msgid "Issuance"
+msgstr "การออก"
+
+msgid "Issuance amount"
+msgstr "จำนวนการออก"
+
+msgid "Issuance blinding nonce"
+msgstr "Issuance blinding nonce"
+
+msgid "Issuance entropy"
+msgstr "Issuance entropy"
+
+msgid ""
+"It is possible to tell the change output apart because you're sending to a "
+"different script type than the one you're spending from."
+msgstr ""
+"เป็นไปได้ที่จะบอกความแตกต่างของผลลัพธ์การเปลี่ยนเพราะคุณกำลังส่งไปยังสคริปต์ประเภทที่แตกต่างจากที่คุณใช้จ่าย"
+
+
+msgid "lang_id"
+msgstr "th"
+
+msgid "lang_name"
+msgstr "ไทย"
+
+msgid "Likely self-transfer"
+msgstr "การโอนเงินด้วยตนเองที่เป็นไปได้"
+
+msgid "Loading..."
+msgstr "กำลังโหลด..."
+
+msgid "Load more"
+msgstr "โหลดเพิ่มเติม"
+
+msgid "Lock time"
+msgstr "เวลาล็อก"
+
+msgid "ltr"
+msgstr "ltr"
+
+msgid "Mempool"
+msgstr "Mempool"
+
+msgid "Merkle root"
+msgstr "รากของ Merkle"
+
+msgid "New asset"
+msgstr "สินทรัพย์ใหม่"
+
+msgid "Newer"
+msgstr "ใหม่กว่า"
+
+msgid "Next"
+msgstr "ถัดไป"
+
+msgid "Nonce"
+msgstr "Nonce"
+
+msgid "Nonstandard"
+msgstr "ไม่เป็นมาตรฐาน"
+
+msgid "No outputs"
+msgstr "ไม่มีผลลัพธ์"
+
+msgid "No recent transactions"
+msgstr "ไม่มีการทำธุรกรรมเร็ว ๆ นี้"
+
+msgid "No reissuance"
+msgstr "ไม่มีการออกใหม่"
+
+msgid "No results found"
+msgstr "ไม่พบผลลัพธ์"
+
+msgid "nSequence"
+msgstr "nSequence"
+
+msgid "Older"
+msgstr "เก่ากว่า"
+
+msgid "OP_RETURN data"
+msgstr "ข้อมูล OP_RETURN"
+
+msgid "Opted in"
+msgstr "เลือกเข้าร่วม"
+
+msgid "Orphaned"
+msgstr "เป็นกำมะถัน"
+
+msgid "Outpoint"
+msgstr "จุดออก"
+
+msgid "Output in parent chain"
+msgstr "ผลลัพธ์ในสายแม่"
+
+msgid "overpaying by %s%"
+msgstr "จ่ายเกิน %s%"
+
+msgid "Page Not Found"
+msgstr "ไม่พบหน้าที่ร้องขอ"
+
+msgid "Peg-out"
+msgstr "Peg-out"
+
+msgid "Peg-out address"
+msgstr "ที่อยู่ Peg-out"
+
+msgid "Peg-out ASM"
+msgstr "Peg-out ASM"
+
+msgid "Peg-out to"
+msgstr "Peg-out ไปยัง"
+
+msgid "Possibly a CoinJoin transaction"
+msgstr "อาจเป็นการทำธุรกรรม CoinJoin"
+
+msgid "Powered by esplora"
+msgstr "ขับเคลื่อนโดย esplora"
+
+msgid "Prev"
+msgstr "ก่อนหน้า"
+
+msgid "Previous"
+msgstr "ก่อนหน้า"
+
+msgid "Previous output address"
+msgstr "ที่อยู่ผลลัพธ์ก่อนหน้า"
+
+msgid "Previous output script"
+msgstr "สคริปต์ผลลัพธ์ก่อนหน้า"
+
+msgid "Privacy analysis"
+msgstr "การวิเคราะห์ความเป็นส่วนตัว"
+
+msgid "(RBF)"
+msgstr "(RBF)"
+
+msgid "Recent transactions"
+msgstr "การทำธุรกรรมเร็วๆนี้"
+
+msgid "Reissuance"
+msgstr "การออกใหม่"
+
+msgid "Reissuance commitment"
+msgstr "ความมั่นใจในการออกใหม่"
+
+msgid "Reissuance keys"
+msgstr "กุญแจการออกใหม่"
+
+msgid "Replace by fee"
+msgstr "แทนที่ด้วยค่าธรรมเนียม"
+
+msgid "Round payment amount"
+msgstr "จำนวนการชำระเงินแบบรอบ"
+
+msgid "sat/vbyte"
+msgstr "sat/vbyte"
+
+msgid "%s blocks"
+msgstr "%s บล็อก"
+
+msgid "Scan QR"
+msgstr "สแกน QR"
+
+msgid "%s Confirmations (singular)"
+msgstr "1 การยืนยัน"
+
+msgid "%s Confirmations (plural)"
+msgstr "%0 การยืนยัน"
+
+msgid "scriptPubKey (asm)"
+msgstr "scriptPubKey (asm)"
+
+msgid "scriptPubKey (hex)"
+msgstr "scriptPubKey (hex)"
+
+msgid "scriptSig (asm)"
+msgstr "scriptSig (asm)"
+
+msgid "scriptSig (hex)"
+msgstr "scriptSig (hex)"
+
+msgid "Search for block height, hash, transaction, or address"
+msgstr "ค้นหาด้วยความสูงบล็อก, แฮช, ธุรกรรม หรือ ที่อยู่"
+
+msgid "SegWit fee savings"
+msgstr "การประหยัดค่าธรรมเนียม SegWit"
+
+msgid "Sending exact amounts (with no change) is an indication the bitcoins likely didn't change hands."
+msgstr "การส่งจำนวนเงินที่แน่นอน (ไม่มีเงินทอน) แสดงว่าบิตคอยน์น่าจะไม่ได้เปลี่ยนแปลงเจ้าของ."
+
+msgid "Sending to a different script type"
+msgstr "การส่งไปยังประเภทสคริปต์ที่แตกต่าง"
+
+msgid "%s from tip"
+msgstr "%s จากทิป"
+
+msgid "Size"
+msgstr "ขนาด"
+
+msgid "Size (KB)"
+msgstr "ขนาด (KB)"
+
+msgid "%s of %s Transactions"
+msgstr "%s จาก %s ธุรกรรม"
+
+msgid "%s outputs (singular)"
+msgstr "1 ผลลัพธ์"
+
+msgid "%s outputs (plural)"
+msgstr "%0 ผลลัพธ์"
+
+msgid "Spending tx"
+msgstr "การใช้จ่าย tx"
+
+msgid "Spent by"
+msgstr "ใช้โดย"
+
+msgid "%s (%s sat/vB)"
+msgstr "%s (%s sat/vB)"
+
+msgid "Status"
+msgstr "สถานะ"
+
+msgid "%s Transactions (singular)"
+msgstr "1 ธุรกรรม"
+
+msgid "%s Transactions (plural)"
+msgstr "%0 ธุรกรรม"
+
+msgid "style.css"
+msgstr "style.css"
+
+msgid "There's an indication that one output is more likely to be the change because some inputs would've been unnecessary if it was the payment."
+msgstr "มีการบ่งบอกว่าผลลัพธ์หนึ่งอาจเป็นเงินทอน เนื่องจากบางอินพุตอาจไม่จำเป็นหากเป็นการชำระเงิน."
+
+msgid "This transaction could save %s on fees by upgrading to native SegWit-Bech32 or %s by upgrading to SegWit-P2SH"
+msgstr "ธุรกรรมนี้สามารถประหยัดค่าธรรมเนียมได้ %s ด้วยการอัพเกรดเป็น SegWit-Bech32 แบบเดิม หรือ %s ด้วยการอัพเกรดเป็น SegWit-P2SH"
+
+msgid "This transaction doesn't violate any of the privacy gotchas we cover. Read on other potential ways it might leak privacy."
+msgstr "ธุรกรรมนี้ไม่ละเมิดข้อจับใจด้านความเป็นส่วนตัวที่เราอธิบาย อ่านเกี่ยวกับวิธีอื่นๆที่อาจเปิดเผยความเป็นส่วนตัว."
+
+msgid "This transaction has unnecessary inputs that are not typically added by wallet software."
+msgstr "ธุรกรรมนี้มีอินพุตที่ไม่จำเป็น ซึ่งโดยปกติไม่ได้ถูกเพิ่มโดยซอฟต์แวร์กระเป๋า."
+
+msgid "This transaction re-uses addresses. This makes it trivial to track your transactions over time and link them together. Note that we currently only look for address reuse within the transaction, not across the history."
+msgstr "ธุรกรรมนี้ใช้ที่อยู่ซ้ำ ทำให้เป็นเรื่องง่ายที่จะติดตามการทำธุรกรรมของคุณตลอดเวลา และเชื่อมโยงกัน โปรดทราบว่าเราเฉพาะการค้นหาการใช้ที่อยู่ซ้ำภายในธุรกรรมเท่านั้น ไม่ได้เป็นข้ามประวัติ."
+
+msgid "This transaction saved %s on fees by upgrading to native SegWit-Bech32"
+msgstr "ธุรกรรมนี้ประหยัดค่าธรรมเนียม %s ด้วยการอัพเกรดเป็น SegWit-Bech32 แบบเดิม"
+
+msgid "This transaction saved %s on fees by upgrading to SegWit and could save %s more by fully upgrading to native SegWit-Bech32"
+msgstr "ธุรกรรมนี้ประหยัดค่าธรรมเนียม %s ด้วยการอัพเกรดเป็น SegWit และยังสามารถประหยัดเพิ่มเติมได้ %s หากอัพเกรดเต็มรูปแบบเป็น SegWit-Bech32 แบบเดิม"
+
+msgid "Timestamp"
+msgstr "เวลาที่บันทึก"
+
+msgid "Total fees"
+msgstr "ค่าธรรมเนียมรวม"
+
+msgid "Total size"
+msgstr "ขนาดรวม"
+
+msgid "Total transactions"
+msgstr "ธุรกรรมรวม"
+
+msgid "Total tx count"
+msgstr "จำนวนธุรกรรมรวม"
+
+msgid "Total unspent"
+msgstr "ยอดคงเหลือรวม"
+
+msgid "Transaction"
+msgstr "ธุรกรรม"
+
+msgid "Transaction fees"
+msgstr "ค่าธรรมเนียมธุรกรรม"
+
+msgid "Transaction not found"
+msgstr "ไม่พบธุรกรรม"
+
+msgid "Transactions"
+msgstr "ธุรกรรม"
+
+msgid "Transaction: %s"
+msgstr "ธุรกรรม: %s"
+
+msgid "TXID"
+msgstr "TXID"
+
+msgid "txid:vout"
+msgstr "txid:vout"
+
+msgid "Type"
+msgstr "ประเภท"
+
+msgid "Unconfirmed"
+msgstr "ยังไม่ได้ยืนยัน"
+
+msgid "Unconfirmed received"
+msgstr "ได้รับโดยยังไม่ได้ยืนยัน"
+
+msgid "Unconfirmed spent"
+msgstr "ใช้จ่ายโดยยังไม่ได้ยืนยัน"
+
+msgid "Unconfirmed tx count"
+msgstr "จำนวนธุรกรรมที่ยังไม่ได้ยืนยัน"
+
+msgid "Unnecessary input heuristic"
+msgstr "ฮิวริสติกของอินพุตที่ไม่จำเป็น"
+
+msgid "Unspent"
+msgstr "ยังไม่ได้ใช้จ่าย"
+
+msgid "Using round payment amounts gives an indication of which output is the payment and which is the change. Padding payment amounts to use all available precision resolves this issue."
+msgstr "การใช้จำนวนการชำระเงินแบบกลมช่วยบ่งบอกว่าผลลัพธ์ใดเป็นการชำระเงินและผลลัพธ์ใดเป็นเงินทอน การเติมจำนวนการชำระเงินเพื่อใช้ความแม่นยำที่มีทั้งหมดจะแก้ไขปัญหานี้"
+
+msgid "Value"
+msgstr "มูลค่า"
+
+msgid "Value commitment"
+msgstr "ความมุ่งมั่นของมูลค่า"
+
+msgid "Version"
+msgstr "เวอร์ชัน"
+
+msgid "Virtual size"
+msgstr "ขนาดเสมือนจริง"
+
+msgid "We encountered an error. Please try again later."
+msgstr "เราพบข้อผิดพลาด โปรดลองใหม่ภายหลัง"
+
+msgid "Weight (KWU)"
+msgstr "น้ำหนัก (KWU)"
+
+msgid "Weight units"
+msgstr "หน่วยน้ำหนัก"
+
+msgid "Witness"
+msgstr "พยาน"
