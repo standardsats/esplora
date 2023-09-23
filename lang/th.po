@@ -1,6 +1,9 @@
-#
 msgid ""
-msgstr "Language: th\n"
+msgstr ""
+"Last-Translator: Robot\n"
+"Language-Team: Thai"
+"Language: th\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Address"
 msgstr "ที่อยู่"
