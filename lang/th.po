@@ -12,7 +12,7 @@ msgid "Address reuse"
 msgstr "การใช้ที่อยู่ซ้ำ"
 
 msgid "Address: %s"
-msgstr "ที่อยู่: %s"
+msgstr "ที่อยู่: %0"
 
 msgid "Amount commitment"
 msgstr "จำนวนความมุ่งมั่น"
@@ -39,13 +39,13 @@ msgid "Block not found"
 msgstr "ไม่พบบล็อค"
 
 msgid "Block %s"
-msgstr "บล็อค %s"
+msgstr "บล็อค %0"
 
 msgid "Block Solution"
 msgstr "โซลูชั่นบล็อค"
 
 msgid "Block #%s: %s"
-msgstr "บล็อค #%s: %s"
+msgstr "บล็อค #%0: %1"
 
 msgid "Block timestamp"
 msgstr "เวลาบันทึกบล็อค"
@@ -76,7 +76,7 @@ msgid ""
 "compared to bitcoind's suggested fee of %s sat/vB for confirmation within 2 "
 "blocks"
 msgstr ""
-"เมื่อเทียบกับค่าธรรมเนียมที่ bitcoind แนะนำที่ %s sat/vB สำหรับการยืนยันภายใน 2 "
+"เมื่อเทียบกับค่าธรรมเนียมที่ bitcoind แนะนำที่ %0 sat/vB สำหรับการยืนยันภายใน 2 "
 "บล็อก"
 
 msgid "Confidential"
@@ -131,7 +131,7 @@ msgid "Included in Block"
 msgstr "รวมอยู่ในบล็อก"
 
 msgid "in %s blocks (%s from tip)"
-msgstr "ใน %s บล็อก (%s จากทิป)"
+msgstr "ใน %0 บล็อก (%1 จากทิป)"
 
 msgid "Issuance"
 msgstr "การออก"
@@ -291,7 +291,7 @@ msgid "sat/vbyte"
 msgstr "sat/vbyte"
 
 msgid "%s blocks"
-msgstr "%s บล็อก"
+msgstr "%0 บล็อก"
 
 msgid "Scan QR"
 msgstr "สแกน QR"
@@ -327,7 +327,7 @@ msgid "Sending to a different script type"
 msgstr "การส่งไปยังประเภทสคริปต์ที่แตกต่าง"
 
 msgid "%s from tip"
-msgstr "%s จากทิป"
+msgstr "%0 จากทิป"
 
 msgid "Size"
 msgstr "ขนาด"
@@ -336,7 +336,7 @@ msgid "Size (KB)"
 msgstr "ขนาด (KB)"
 
 msgid "%s of %s Transactions"
-msgstr "%s จาก %s ธุรกรรม"
+msgstr "%0 จาก %1 ธุรกรรม"
 
 msgid "%s outputs (singular)"
 msgstr "1 ผลลัพธ์"
@@ -351,7 +351,7 @@ msgid "Spent by"
 msgstr "ใช้โดย"
 
 msgid "%s (%s sat/vB)"
-msgstr "%s (%s sat/vB)"
+msgstr "%0 (%1 sat/vB)"
 
 msgid "Status"
 msgstr "สถานะ"
@@ -369,7 +369,7 @@ msgid "There's an indication that one output is more likely to be the change bec
 msgstr "มีการบ่งบอกว่าผลลัพธ์หนึ่งอาจเป็นเงินทอน เนื่องจากบางอินพุตอาจไม่จำเป็นหากเป็นการชำระเงิน."
 
 msgid "This transaction could save %s on fees by upgrading to native SegWit-Bech32 or %s by upgrading to SegWit-P2SH"
-msgstr "ธุรกรรมนี้สามารถประหยัดค่าธรรมเนียมได้ %s ด้วยการอัพเกรดเป็น SegWit-Bech32 แบบเดิม หรือ %s ด้วยการอัพเกรดเป็น SegWit-P2SH"
+msgstr "ธุรกรรมนี้สามารถประหยัดค่าธรรมเนียมได้ %0 ด้วยการอัพเกรดเป็น SegWit-Bech32 แบบเดิม หรือ %1 ด้วยการอัพเกรดเป็น SegWit-P2SH"
 
 msgid "This transaction doesn't violate any of the privacy gotchas we cover. Read on other potential ways it might leak privacy."
 msgstr "ธุรกรรมนี้ไม่ละเมิดข้อจับใจด้านความเป็นส่วนตัวที่เราอธิบาย อ่านเกี่ยวกับวิธีอื่นๆที่อาจเปิดเผยความเป็นส่วนตัว."
@@ -381,10 +381,10 @@ msgid "This transaction re-uses addresses. This makes it trivial to track your t
 msgstr "ธุรกรรมนี้ใช้ที่อยู่ซ้ำ ทำให้เป็นเรื่องง่ายที่จะติดตามการทำธุรกรรมของคุณตลอดเวลา และเชื่อมโยงกัน โปรดทราบว่าเราเฉพาะการค้นหาการใช้ที่อยู่ซ้ำภายในธุรกรรมเท่านั้น ไม่ได้เป็นข้ามประวัติ."
 
 msgid "This transaction saved %s on fees by upgrading to native SegWit-Bech32"
-msgstr "ธุรกรรมนี้ประหยัดค่าธรรมเนียม %s ด้วยการอัพเกรดเป็น SegWit-Bech32 แบบเดิม"
+msgstr "ธุรกรรมนี้ประหยัดค่าธรรมเนียม %0 ด้วยการอัพเกรดเป็น SegWit-Bech32 แบบเดิม"
 
 msgid "This transaction saved %s on fees by upgrading to SegWit and could save %s more by fully upgrading to native SegWit-Bech32"
-msgstr "ธุรกรรมนี้ประหยัดค่าธรรมเนียม %s ด้วยการอัพเกรดเป็น SegWit และยังสามารถประหยัดเพิ่มเติมได้ %s หากอัพเกรดเต็มรูปแบบเป็น SegWit-Bech32 แบบเดิม"
+msgstr "ธุรกรรมนี้ประหยัดค่าธรรมเนียม %0 ด้วยการอัพเกรดเป็น SegWit และยังสามารถประหยัดเพิ่มเติมได้ %1 หากอัพเกรดเต็มรูปแบบเป็น SegWit-Bech32 แบบเดิม"
 
 msgid "Timestamp"
 msgstr "เวลาที่บันทึก"
@@ -417,7 +417,7 @@ msgid "Transactions"
 msgstr "ธุรกรรม"
 
 msgid "Transaction: %s"
-msgstr "ธุรกรรม: %s"
+msgstr "ธุรกรรม: %0"
 
 msgid "TXID"
 msgstr "TXID"
