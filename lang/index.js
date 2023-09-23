@@ -1,5 +1,6 @@
 module.exports = {
-  en: require('./en.json')
+  th: require('./th.json')
+, en: require('./en.json')
 , 'pt-pt': require('./pt-pt.json')
 , de: require('./de.json')
 , fr: require('./fr.json')
