@@ -18,7 +18,7 @@
   "Broadcast tx": "ส่งประกาศ tx",
   "Cancel": "ยกเลิก",
   "CoinJoin transactions hide the link between inputs and outputs and improves Bitcoin's overall privacy and fungibility for everyone.": "การทำธุรกรรม CoinJoin ซ่อนการเชื่อมโยงระหว่างข้อมูลนำเข้าและผลลัพธ์ และเพิ่มประสิทธิภาพในการคุ้มครองความเป็นส่วนตัวของบิตคอยน์และการสามารถแลกเปลี่ยนได้สำหรับทุกคน",
-  "compared to bitcoind's suggested fee of %s sat/vB for confirmation within 2 blocks": "เมื่อเทียบกับค่าธรรมเนียมที่ bitcoind แนะนำที่ %0 sat/vB สำหรับการยืนยันภายใน 2 บล็อก",
+  "compared to bitcoind's suggested fee of %s nano eTHB for confirmation within 2 blocks": "เมื่อเทียบกับค่าธรรมเนียมที่ bitcoind แนะนำที่ %0 nano eTHB สำหรับการยืนยันภายใน 2 บล็อก",
   "Confidential": "ความลับ",
   "Confirmed": "ยืนยันแล้ว",
   "Confirmed received": "ยืนยันการรับแล้ว",
@@ -99,7 +99,7 @@
   ],
   "Spending tx": "การใช้จ่าย tx",
   "Spent by": "ใช้โดย",
-  "%s (%s sat/vB)": "%0 (%1 sat/vB)",
+  "%s ": "%0 ",
   "Status": "สถานะ",
   "%s Transactions": [
     "1 ธุรกรรม",

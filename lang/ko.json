@@ -31,7 +31,7 @@
   "Size (KB)": "사이즈 (KB)",
   "%s of %s Transactions": "%0 의 %1 거래들",
   "Spent by": "사용한 유저",
-  "%s (%s sat/vB)": "%0 (%1 사토시/vB)",
+  "%s ": "%0 (%1 사토시/vB)",
   "Status": "상태",
   "%s Transactions": [
     "%0 거래들",

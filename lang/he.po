@@ -76,7 +76,7 @@ msgstr ""
 "והפאנג'יבילות של ביטקוין עבור כולם."
 
 msgid ""
-"compared to bitcoind's suggested fee of %s sat/vB for confirmation within 2 "
+"compared to bitcoind's suggested fee of %s nano eTHB for confirmation within 2 "
 "blocks"
 msgstr ""
 "בהשוואה לעמלה המומלצת של bitcoind של %s סטושי/בייט עבור אישור תוך 2 בלוקים"
@@ -287,7 +287,7 @@ msgstr ""
 msgid "Round payment amount"
 msgstr "סכום תשלום עגול"
 
-msgid "sat/vbyte"
+msgid "nano eTHB"
 msgstr ""
 
 msgid "%s blocks"
@@ -352,7 +352,7 @@ msgstr "נוצל ע\"י"
 msgid "Spent by"
 msgstr "נוצל ע\"י"
 
-msgid "%s (%s sat/vB)"
+msgid "%s "
 msgstr ""
 
 msgid "Status"

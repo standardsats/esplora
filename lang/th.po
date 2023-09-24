@@ -73,10 +73,10 @@ msgstr ""
 
 
 msgid ""
-"compared to bitcoind's suggested fee of %s sat/vB for confirmation within 2 "
+"compared to bitcoind's suggested fee of %s nano eTHB for confirmation within 2 "
 "blocks"
 msgstr ""
-"เมื่อเทียบกับค่าธรรมเนียมที่ bitcoind แนะนำที่ %0 sat/vB สำหรับการยืนยันภายใน 2 "
+"เมื่อเทียบกับค่าธรรมเนียมที่ bitcoind แนะนำที่ %0 nano eTHB สำหรับการยืนยันภายใน 2 "
 "บล็อก"
 
 msgid "Confidential"
@@ -287,8 +287,8 @@ msgstr "แทนที่ด้วยค่าธรรมเนียม"
 msgid "Round payment amount"
 msgstr "จำนวนการชำระเงินแบบรอบ"
 
-msgid "sat/vbyte"
-msgstr "sat/vbyte"
+msgid "nano eTHB"
+msgstr "nano eTHB"
 
 msgid "%s blocks"
 msgstr "%0 บล็อก"
@@ -350,8 +350,8 @@ msgstr "การใช้จ่าย tx"
 msgid "Spent by"
 msgstr "ใช้โดย"
 
-msgid "%s (%s sat/vB)"
-msgstr "%0 (%1 sat/vB)"
+msgid "%s "
+msgstr "%0 "
 
 msgid "Status"
 msgstr "สถานะ"

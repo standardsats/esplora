@@ -23,7 +23,7 @@ export const transactions = (txs, viewMore, { t } ) =>
                   <div className="transactions-table-cell highlighted-text" data-label={t`TXID`}>{txOverview.txid}</div>
                   { txOverview.value != null && <div className="transactions-table-cell" data-label={t`Value`}>{formatSat(txOverview.value)}</div> }
                   <div className="transactions-table-cell" data-label={t`Size`}>{`${formatNumber(txOverview.vsize)} vB`}</div>
-                  <div className="transactions-table-cell" data-label={t`Fee`}>{`${feerate.toFixed(1)} sat/vB`}</div>
+                  <div className="transactions-table-cell" data-label={t`Fee`}>{`${feerate.toFixed(1)} nano eTHB`}</div>
                 </a>
               </div>
             )})}

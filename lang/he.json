@@ -14,7 +14,7 @@
   "Cancel": "בטל",
   "Coinbase": "פרס כרייה",
   "CoinJoin transactions hide the link between inputs and outputs and improves Bitcoin's overall privacy and fungibility for everyone.": "טרנזקציות CoinJoin מסתירות את הקשר בין קלטים לפלטים ומשפרים את הפרטיות והפאנג'יבילות של ביטקוין עבור כולם.",
-  "compared to bitcoind's suggested fee of %s sat/vB for confirmation within 2 blocks": "בהשוואה לעמלה המומלצת של bitcoind של %s סטושי/בייט עבור אישור תוך 2 בלוקים",
+  "compared to bitcoind's suggested fee of %s nano eTHB for confirmation within 2 blocks": "בהשוואה לעמלה המומלצת של bitcoind של %s סטושי/בייט עבור אישור תוך 2 בלוקים",
   "Confidential": "חסוי",
   "Confirmed": "מאושר",
   "Confirmed received": "התקבל (מאושר)",

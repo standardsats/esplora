@@ -22,7 +22,7 @@ Broadcast tx
 Cancel
 Coinbase
 CoinJoin transactions hide the link between inputs and outputs and improves Bitcoin's overall privacy and fungibility for everyone.
-compared to bitcoind's suggested fee of %s sat/vB for confirmation within 2 blocks
+compared to bitcoind's suggested fee of %s nano eTHB for confirmation within 2 blocks
 Confidential
 Confirmed
 Confirmed non-confidential tx count
@@ -107,7 +107,7 @@ Reissuance tokens burned
 Reissuance tokens created
 Replace by fee
 Round payment amount
-sat/vbyte
+nano eTHB
 %s base units
 %s blocks
 Scan QR
@@ -127,7 +127,7 @@ Size (KB)
 %s outputs
 Spending tx
 Spent by
-%s (%s sat/vB)
+%s
 Status
 %s Transactions
 style.css

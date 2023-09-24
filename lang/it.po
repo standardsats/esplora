@@ -76,7 +76,7 @@ msgid ""
 msgstr ""
 
 msgid ""
-"compared to bitcoind's suggested fee of %s sat/vB for confirmation within 2 "
+"compared to bitcoind's suggested fee of %s nano eTHB for confirmation within 2 "
 "blocks"
 msgstr ""
 
@@ -286,7 +286,7 @@ msgstr "Replace by fee "
 msgid "Round payment amount"
 msgstr ""
 
-msgid "sat/vbyte"
+msgid "nano eTHB"
 msgstr ""
 
 msgid "%s blocks"
@@ -351,8 +351,8 @@ msgstr "Speso nella transazione"
 msgid "Spent by"
 msgstr "Spesa da"
 
-msgid "%s (%s sat/vB)"
-msgstr "%s (%s sat/vB)"
+msgid "%s "
+msgstr "%s "
 
 msgid "Status"
 msgstr "Stato"
