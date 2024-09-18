@@ -60,21 +60,74 @@ write_files:
         echo "[insert-instance-list] added $ip:$PORT to ${container_name}"
       done
 
+  - path: /home/bs/truncate-err-log.sh
+    permissions: 0644
+    owner: root
+    content: |
+      #!/bin/bash
+
+      # Path to the file inside the container
+      FILE="/var/log/nginx/error.log"
+      # Container name
+      CONTAINER="${container_name}"
+      # Maximum file size in bytes (20GB)
+      MAXSIZE=$((20 * 1024 * 1024 * 1024))
+
+      # Check if the container is running
+      if docker ps | grep -q "$CONTAINER"; then
+          # Get the file size inside the container
+          FILESIZE=$(docker exec "$CONTAINER" stat -c %s "$FILE")
+          # Compare the file size with the maximum allowed size
+          if [ "$FILESIZE" -gt "$MAXSIZE" ]; then
+              echo "Truncating $FILE in $CONTAINER..."
+              docker exec "$CONTAINER" truncate -s 0 "$FILE"
+          else
+              echo "$FILE in $CONTAINER is within size limit: $((FILESIZE / 1024 / 1024 / 1024)) GB."
+          fi
+      else
+          echo "Container $CONTAINER is not running."
+      fi
+
+  - path: /etc/systemd/system/truncate-err-log.service
+    permissions: 0644
+    owner: root
+    content: |
+      [Unit]
+      Description=Check and truncate Nginx error.log file in container if larger than 20GB
+
+      [Service]
+      Type=oneshot
+      ExecStart=/bin/bash /home/bs/truncate-err-log.sh
+
+  - path: /etc/systemd/system/truncate-err-log.timer
+    permissions: 0644
+    owner: root
+    content: |
+      [Unit]
+      Description=Timer for truncating Nginx error.log file in container
+
+      [Timer]
+      # Run every 12h
+      OnCalendar=*-*-* 00/12:00:00
+      AccuracySec=1h
+
+      [Install]
+      WantedBy=timers.target
+
   - path: /etc/systemd/system/explorer.service
     permissions: 0644
     owner: root
     content: |
       [Unit]
       Description=explorer
-      Wants=gcr-online.target docker.service
-      After=gcr-online.service docker.service
+      Wants=docker.service
+      After=docker.service
 
       [Service]
       Restart=always
       RestartSec=1
       TimeoutStartSec=1200
       Environment=HOME=/home/bs
-      ExecStartPre=/usr/bin/docker-credential-gcr configure-docker
       ExecStartPre=/usr/bin/docker pull ${docker_tag}
       ExecStartPre=/usr/bin/docker pull ${docker_tag_gcloud}
       ExecStartPre=/bin/bash /home/bs/prep_disk.sh
@@ -84,6 +137,8 @@ write_files:
           --pid=host \
           --name=${container_name} \
           --tmpfs /tmp/ \
+          --log-opt max-size=25g \
+          --log-opt max-file=3 \
           -v /mnt/disks/data:/data:rw \
           --ulimit nofile=524288:524288 \
           "${docker_tag}" bash -c '/srv/explorer/run.sh ${daemon}-${network}-blockstream explorer nonverbose ${mempooldat} ${fullurl}'
@@ -101,14 +156,13 @@ write_files:
     content: |
       [Unit]
       Description=prometheus node-exporter
-      Wants=gcr-online.target docker.service
-      After=gcr-online.service docker.service
+      Wants=docker.service
+      After=docker.service
 
       [Service]
       Restart=always
       RestartSec=1
       Environment=HOME=/home/bs
-      ExecStartPre=/usr/bin/docker-credential-gcr configure-docker
       ExecStartPre=/usr/bin/docker pull ${docker_tag_node_exporter}
       ExecStartPre=/sbin/iptables -A INPUT -m tcp -p tcp --dport 9100 -j ACCEPT
       ExecStart=/usr/bin/docker run \
@@ -134,14 +188,13 @@ write_files:
     content: |
       [Unit]
       Description=prometheus process-exporter
-      Wants=gcr-online.target docker.service
-      After=gcr-online.service docker.service
+      Wants=docker.service
+      After=docker.service
 
       [Service]
       Restart=always
       RestartSec=1
       Environment=HOME=/home/bs
-      ExecStartPre=/usr/bin/docker-credential-gcr configure-docker
       ExecStartPre=/usr/bin/docker pull ${docker_tag_process_exporter}
       ExecStartPre=/sbin/iptables -A INPUT -m tcp -p tcp --dport 9256 -j ACCEPT
       ExecStart=/usr/bin/docker run \
@@ -160,6 +213,7 @@ write_files:
 
 runcmd:
   - systemctl daemon-reload
+  - systemctl enable --now truncate-err-log.timer
   - systemctl enable --now explorer.service
   - systemctl enable --now node-exporter.service
   - systemctl enable --now process-exporter.service

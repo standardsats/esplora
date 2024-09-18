@@ -68,11 +68,6 @@ variable "cluster_size" {
   default = "overwritten_by_ci"
 }
 
-variable "preemptible_cluster_size" {
-  type    = string
-  default = "overwritten_by_ci"
-}
-
 # lists overwritten by ci
 variable "regions" {
   type    = list(any)
@@ -90,11 +85,6 @@ variable "zones" {
 }
 
 variable "instance_type" {
-  type    = string
-  default = ""
-}
-
-variable "preemptible_instance_type" {
   type    = string
   default = ""
 }
@@ -139,7 +129,7 @@ variable "docker_tag_explorer" {
 
 variable "docker_tag_tor" {
   type    = string
-  default = "blockstream/tor@sha256:378aa7ee44452617ba46369e7e27cc89c2704b9d53442cf016543a24e46f984a"
+  default = "blockstream/tor:0.4.8.10"
 }
 
 variable "docker_tag_prometheus" {
